@@ -3,41 +3,100 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Juan Pablo - Professor de Música</title>
+  <title>Juan Pablo | Professor de Música</title>
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #111;
-      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.6;
     }
+
     header {
-      background-color: #222;
-      padding: 20px;
+      background: url('https://images.unsplash.com/photo-1581587435175-29b94d49497b') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
+      color: white;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2.5em;
+      font-size: 3em;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px 20px;
+      border-radius: 10px;
     }
+
+    nav {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 10px 0;
+    }
+
     nav a {
       color: #1db954;
       margin: 0 15px;
       text-decoration: none;
+      font-weight: bold;
     }
+
     section {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
     }
-    .highlight {
-      color: #1db954;
+
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
     }
+
+    .about img {
+      max-width: 300px;
+      border-radius: 20px;
+    }
+
+    h2 {
+      color: #1db954;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #333;
+    }
+
+    .services img {
+      width: 50px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
     footer {
-      background-color: #222;
+      background: #111;
       text-align: center;
-      padding: 15px;
+      padding: 20px;
       font-size: 0.9em;
+    }
+
+    a {
+      color: #1db954;
     }
   </style>
 </head>
@@ -45,41 +104,9 @@
 
   <header>
     <h1>Juan Pablo</h1>
-    <p class="highlight">Professor de Música • Violão • Teoria Musical • Produção</p>
-    <nav>
-      <a href="#sobre">Sobre Mim</a>
-      <a href="#aulas">Aulas</a>
-      <a href="#contato">Contato</a>
-    </nav>
+    <p>Professor de Música | Violão | Produção | Teoria</p>
   </header>
 
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p>Olá! Sou Juan Pablo, professor de música com mais de 10 anos de experiência em ensino de violão, teoria musical e produção sonora. Minha missão é ajudar pessoas de todas as idades a descobrirem o poder da música em suas vidas.</p>
-  </section>
+  <nav>
+    <a href="#sobre">
 
-  <section id="aulas">
-    <h2>Aulas e Serviços</h2>
-    <ul>
-      <li>🎸 Aulas de violão para iniciantes e intermediários</li>
-      <li>📚 Teoria musical e leitura de partituras</li>
-      <li>🎧 Produção musical com softwares como FL Studio e Ableton Live</li>
-      <li>🧑‍🏫 Aulas presenciais e online via Zoom</li>
-    </ul>
-  </section>
-
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Quer marcar uma aula ou tirar dúvidas? Entre em contato:</p>
-    <ul>
-      <li>Email: <a href="mailto:juanpablo@email.com" class="highlight">juanpablo@email.com</a></li>
-      <li>Instagram: <a href="https://instagram.com/seuusuario" target="_blank" class="highlight">@seuusuario</a></li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Juan Pablo | Todos os direitos reservados</p>
-  </footer>
-
-</body>
-</html>
