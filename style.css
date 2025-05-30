@@ -1,62 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+
+:root {
+    --primary-color: #026773;
+    --secondary-color: #3CA6A6;
+    --text-color: #024959;
+    --background-color: #F2E3D5;
+    --button-hover: #012E40;
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
+
+/* código omitido */
+
+/* Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
 }
 
+/* Corpo da página */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0fff4;
-  color: #333;
-  line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
 }
 
-header {
-  background-color: #4caf50;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
+h3 {
+    margin-top: 25px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+p {
+    margin-top: 20px;
 }
 
-nav ul li {
-  margin: 0 15px;
+img {
+    max-width: 90%;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-h2 {
-  color: #2e7d32;
-  margin-bottom: 10px;
-}
-
-footer {
-  background-color: #4caf50;
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-}
+/* código omitido */
