@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
 
-
+/* Variaveis */
 :root {
     --primary-color: #026773;
     --secondary-color: #3CA6A6;
@@ -41,3 +41,25 @@ img {
 }
 
 /* código omitido */
+/* código omitido */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
