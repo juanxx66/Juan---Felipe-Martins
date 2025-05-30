@@ -39,3 +39,27 @@ img {
     max-width: 90%;
 }
 
+/* Cabeçalho */
+header {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: var(--font-titulo);
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style-type: style none;
+    padding: 10px
+
+}
+ nav ul li {
+    display:inline;
+    margin: 0 15px;
+ }
+ nav ul li a {
+color:white;
+ }
